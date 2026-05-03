@@ -15,7 +15,7 @@ cd output
 
 ls -l
 
-python3 poem_script.py > poem_output.txt
+python poem_script.py > poem_output.txt
 
 echo "Poem script executed successfully."
 
