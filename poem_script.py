@@ -6,11 +6,11 @@ poem = [
     "And eternity in an hour"
 ]
 
-print("=== Poem Lines ===")
+print
 for line in poem:
     print(line)
 
-print("\n=== Uppercase Version ===")
+print
 for line in poem:
     print(line.upper())
 
