@@ -19,6 +19,7 @@ Each command had a clear purpose: setup, verification, execution, or output revi
 Together they showed how Linux commands can automate and organize a small workflow cleanly.
 
 Challenges/Fubar
+
 Most of the issues came from running the script on Windows 11. Windows 11 has a built‑in "Python Alias" that hijacks the python and python3 commands and tries to send you to the Microsoft Store. That caused the script to run without actually executing Python. Once I disabled the alias in Settings, everything worked normally.
 Another small challenge was realizing that the terminal output wasn’t showing the Python output. It was only showing the shell script’s echo statements. The real Python output was in the file, which helped confirm the script was working correctly. With that said...perhaps I'll troubleshoot that later on in the future...
 
