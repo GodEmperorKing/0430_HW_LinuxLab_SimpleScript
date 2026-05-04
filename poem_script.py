@@ -10,10 +10,6 @@ print
 for line in poem:
     print(line)
 
-print
-for line in poem:
-    print(line.upper())
-
 total_words = sum(len(line.split()) for line in poem)
 print(f"\nTotal word count: {total_words}")
 
